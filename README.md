@@ -47,13 +47,6 @@ EEG frequency bands and their functions under anxiety:
 | **Beta**  | 12–30 Hz  | Focus, alertness | ↑ Increases |
 | **Gamma** | 30–50 Hz  | Cognition, fear response | ↑ Spikes in PTSD/trauma |
 
-**Additional features extracted:**
-- Theta/Beta ratio
-- Sample Entropy
-- ERP components (N200, P300, FRN)
-- PAC (Phase-Amplitude Coupling)
-- Alpha-band coherence in frontal channels
-
 ---
 
 ## 🧪 Physiological & Neuromodulatory Data
@@ -94,28 +87,8 @@ Data collected during 3 key windows:
 - Each performed **~200–250 trials**
 - Each trial = a single decision (explore/exploit)
 
----
 
-## 💡 Contributions
-
-This project:
-- Demonstrates the **power of EEG** and **behavioral features** for anxiety modeling
-- Provides an **interpretable and non-invasive tool** for trait anxiety detection
-- Encourages use of **computational psychiatry** for understanding emotional and cognitive health
-
----
-
-## 📌 Tools & Methods Used
-
-- **EEG Preprocessing & Feature Extraction:** MNE-Python, NumPy, SciPy
-- **Behavioral Analysis:** Custom Python scripts for mouse-tracking and timing
-- **Machine Learning:** Scikit-learn, XGBoost, CatBoost
-- **Deep Learning:** PyTorch, TensorFlow
-- **Visualization:** Matplotlib, Seaborn
-
----
-
-## 📂 Folder Structure (Recommended)
+## 📂 Folder Structure 
 
 ```bash
 project-root/
