@@ -1,12 +1,9 @@
-# data
-
 This directory contains both MATLAB-compatible EEG datasets (`.set`/`.fdt`) and CSV files with concatenated, feature-enriched data from 54 participants (excluding participant 52). These datasets were collected and preprocessed for analyses involving decision-making tasks across two environments.
 
 ---
-
-## Preprocessed EEG Data
-
-### 1. MATLAB EEG Datasets (`.set` / `.fdt`)
+# data
+---
+### 1. Preprocessed EEG Data (`.set` / `.fdt`)
 - Final preprocessed datasets for 53 participants (participant 52 excluded).
 - Each `.set` file is accompanied by a corresponding `.fdt` file.
 - Sampling frequency: **500 Hz**
